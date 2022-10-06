@@ -1,0 +1,56 @@
+@media screen and (min-width: 768px) {
+    .logo {
+        width: 225px;
+        display: block !important;
+    }
+    .logo-responsive {
+        display: none !important;
+    }
+    
+  }
+
+.navbar {
+    background-color: #D9AFD9;
+    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
+    position: static !important;
+    padding-left: 1% !important;
+    padding-right: 3% !important;
+}
+
+.navbar>.container-fluid {
+    justify-content: center !important;
+}
+
+.navbar-collapse {
+    text-align: center;
+}
+a.option {
+    color:rgb(60, 0, 255);
+    text-decoration: underline;
+}
+a.option:hover {
+    color:rgb(255, 255, 255);
+}
+
+.navbar-collapse {
+    flex-grow: 0 !important;
+}
+.nav-link {
+    padding: 0;
+}
+.logo {
+    display: none;
+}
+.logo-responsive {
+    width: 68px;
+    display: block;
+}
+.pawSearch {
+    width: 30px;
+}
+.carrito {
+    width: 55px;
+}
+.userImage {
+   margin-top: 20px;
+}

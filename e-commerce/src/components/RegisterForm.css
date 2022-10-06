@@ -1,0 +1,47 @@
+.formularioRegister {
+  background: rgb(34,0,36);
+  background: linear-gradient(90deg, rgba(34,0,36,1) 0%, rgba(78,9,121,1) 22%, rgba(66,41,142,1) 44%, rgba(54,72,163,1) 75%, rgba(0,212,255,1) 100%);
+  max-width: 800px;
+  padding: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-radius: 5%;
+  color: #fff;
+}
+.RegisterLogo {
+  width: 45%;
+  margin-left: auto;
+  margin-right: auto;
+}
+.title-SignUp {
+  font-size: 25px;
+  text-align: center;
+}
+.RegisterForm {
+  display:flex;
+  flex-direction: column;
+}
+#Register{
+  background-color: rgb(220, 7, 7);
+  color: white;
+  margin: 15px;
+  border: none;
+  font-weight: 600;
+}
+#Register:hover {
+  background-color: #0026ffd4;
+  color: #ffffff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.546), 0 0 10px rgba(255, 253, 253, 0.369), 0 0 10px rgba(255, 253, 253, 0.369);
+} 
+
+a.askLogin2 {
+  color: #ffffff;
+  text-decoration: none;
+  text-align: center;
+}
+a.askLogin2:hover {
+  color: #000000;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.546), 0 0 10px rgba(255, 253, 253, 0.369), 0 0 10px rgba(255, 253, 253, 0.369);
+}
