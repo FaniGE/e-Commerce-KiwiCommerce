@@ -2,8 +2,6 @@ import React, { useState, useEffect } from 'react';
 import Axios from 'axios';
 import './Products.css';
 import { Card, Col, Row, Nav, Form} from 'react-bootstrap';
-import Button from 'react-bootstrap/Button';
-import Modal from 'react-bootstrap/Modal';
 
 const Products = () => {
 	const [list, setList] = useState([]);
