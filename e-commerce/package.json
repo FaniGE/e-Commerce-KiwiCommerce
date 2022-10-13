@@ -5,7 +5,6 @@
   "type": "module",
   "homepage": "e-Commerce-KiwiCommerce",
   "scripts": {
-    "predeploy": "npm run dist",
     "deploy": "gh-pages -d dist",
     "dev": "vite",
     "build": "vite build",
