@@ -156,7 +156,7 @@ useEffect(() => {
                         <div className="col-md-6">
                           <div className="form-outline form-white">
                             <input type="text" id="typeExp" className="form-control form-control-lg"
-                              placeholder="MM/YYYY" size="7" id="exp" minlength="7" maxlength="7" />
+                              placeholder="MM/YYYY" size="7" minlength="7" maxlength="7" />
                             <label className="form-label" for="typeExp">Expiration</label>
                           </div>
                         </div>
